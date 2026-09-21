@@ -1,3 +1,3 @@
 #concept type hint
- def greet(name:str)->str:
+def greet(name:str)->str:
     return "hello" +name
