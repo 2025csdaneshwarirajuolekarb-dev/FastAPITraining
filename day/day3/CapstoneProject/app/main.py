@@ -7,8 +7,9 @@ from app.routers import users
 from app.routers import categories
 from app.routers import tickets
 from app.routers import comments
-from app.routers import audit_logs
 from app.routers import attachments
+from app.routers import audit_logs
+
 
 # Creating FastAPI app instance
 app = FastAPI(title=settings.APP_NAME)
